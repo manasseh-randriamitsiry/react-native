@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Etudiant",
+    "slug": "etudiant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/student.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/students.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/student.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.manassehrandriamitsiry.etudiant"
+    },
+    "web": {
+      "favicon": "./assets/student.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01e6fd87-388d-4780-8888-dab9197c5bcf"
+      }
+    },
+    "owner": "manassehrandriamitsiry"
+  }
+}
